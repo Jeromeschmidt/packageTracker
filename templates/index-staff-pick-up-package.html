@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title> S.S.J. Package Tracker - Staff </title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+<body>
+  <div>
+  <form method="POST">
+    <label for="did">Enter the Drone ID</label>
+    <input type="text" name="did" id="did" placeholder="Drone ID.." required>
+
+    <label for="pid">Enter the Package ID</label>
+    <input type="text" name="pid" id="pid" placeholder="Package ID.." required>
+
+    <label for="from">What is the Time of Dispatchment?</label>
+    <input type="text" name="time" id="time" placeholder="Current Time" required>
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>

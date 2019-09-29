@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title> S.S.J. Package Tracker - Staff </title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+<body>
+  <div>
+  <form method="POST">
+    <label for="id">Drone ID</label>
+    <input type="text" name="droneid" id="droneid" placeholder="Please Enter the Drone ID">
+
+    <label for="to">To</label>
+    <input type="text" name="to" id="to" placeholder="The Destination of Drone">
+	
+	<label for="from">Current Time</label>
+    <input type="text" name="time" id="time" placeholder="Current Time" required>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  <!-- This is the div for heading of the pronect -->
+<!-- <div class="heading">
+  <h2> An empty drone has been dispatched from Depot A to Depot B </h2>
+</div> -->
+  
+  <!-- This was the form element of the page -->
+<!-- <div class="form">
+  <form>
+    <label class="container">
+    <input type="radio" checked="checked" name="radio">Staff
+    <span class="checkmark"></span>
+    </label><br>
+    
+    <label class="container">
+    <input type="radio" name="radio">Customer
+    <span class="checkmark"></span>
+    </label><br>
+  </form>
+</div> -->
+
+<!-- This is the div for the button element -->
+  <!-- <div style="text-align:center;" class="main">
+    <a href="index-customer-delivery-status.html"><button class="button button-delivery-status"> Check your Delivery Status </button></a> <br>
+    
+    <a href="#"><button class="button button-order-delivery-request"> Order Delivery Request </button></a>
+  </div> -->
+</body>
+</html>
